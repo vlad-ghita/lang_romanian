@@ -60,7 +60,7 @@
 		'%s Select current user by default' => 
 		'%s Implicit selectează utilizatorul curent',
 	
-		'%s  Display field’s value in entries table' =>
+		'%s Display field’s value in entries table' =>
 		'%s Afişează valoarea câmpului în lista de înregistrări',
 
 		'&larr; Previous' => 
@@ -431,8 +431,8 @@
 		'Dear <!-- RECIPIENT NAME -->,' => 
 		'Drag(ă) <!-- NUMELE DESTINATARULUI -->,',
 
-		'Default Section' => 
-		'Secţiunea Implicită',
+		'Default Area' => 
+		'Zona Implicită',
 
 		'Delete' => 
 		'Şterge',
@@ -1384,8 +1384,8 @@
 		'Utility updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Utilities</a>' => 
 		'Utilitarul actualizat la %1$s. <a href="%2$s" accesskey="c">Creaţi altul?</a> <a href="%3$s" accesskey="a">Vedeţi toate Utilitarele</a>',
 
-		'Validation Rule <i>Optional</i>' => 
-		'Regulă de validare <i>Opţional</i>',
+		'Validation Rule' => 
+		'Regulă de validare',
 
 		'Value' => 
 		'Valoare',
