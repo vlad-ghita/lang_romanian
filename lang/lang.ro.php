@@ -59,9 +59,9 @@
 
 		'%s Select current user by default' => 
 		'%s Implicit selectează utilizatorul curent',
-
-		'%s Show column' => 
-		'%s Afişează coloană',
+	
+		'%s  Display field’s value in entries table' =>
+		'%s Afişează valoarea câmpului în lista de înregistrări',
 
 		'&larr; Previous' => 
 		'&larr; Ant',
@@ -212,10 +212,15 @@
 
 		'Author' => 
 		'Autor',
-
+	
+		//sym < 2.2
 		'Author created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Authors</a>' => 
 		'Autor creat la %1$s. <a href="%2$s">Creaţi altul?</a> <a href="%3$s">Vedeţi toţi Autorii</a>',
-
+	
+		//sym >= 2.2
+		'Author created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Authors</a>' => 
+		'Autor creat la %1$s. <a href="%2$s" accesskey="c">Creaţi altul?</a> <a href="%3$s" accesskey="a">Vedeţi toţi Autorii</a>',
+	
 		'Author ID' => 
 		'ID-ul autorului',
 
@@ -228,8 +233,13 @@
 		'Authors can set up a differing language in their profiles.' => 
 		'Autorii pot seta o altă limbă din profilul lor.',
 
+		//sym < 2.2
 		'Author updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Authors</a>' => 
 		'Autor actualizat la %1$s. <a href="%2$s">Creaţi altul?</a> <a href="%3$s">Vedeţi toţi Autorii</a>',
+		
+		//sym >= 2.2
+		'Author updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Authors</a>' => 
+		'Autor actualizat la %1$s. <a href="%2$s" accesskey="c">Creaţi altul?</a> <a href="%3$s" accesskey="a">Vedeţi toţi Autorii</a>',
 
 		'A Utility with that name already exists. Please choose another.' => 
 		'Un Utilitar cu acest nume există deja. Vă rugăm alegeţi altul.',
@@ -381,18 +391,28 @@
 		'Data Source' => 
 		'Sursă de Date',
 
+		//sym < 2.2
 		'Data source created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Data sources</a>' => 
 		'Sursa de Date creată la %1$s. <a href="%2$s">Creaţi alta?</a> <a href="%3$s">Vedeţi toate Sursele de Date</a>',
-
+		
+		//sym >= 2.2
+		'Data source created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Data sources</a>' => 
+		'Sursa de Date creată la %1$s. <a href="%2$s" accesskey="c">Creaţi alta?</a> <a href="%3$s" accesskey="a">Vedeţi toate Sursele de Date</a>',
+	
 		'Data source output grouping is not supported by the <code>%s</code> field' => 
 		'Gruparea rezultatului Sursei de Date nu este suportată de câmpul <code>%s</code>',
 
 		'Data Sources' => 
 		'Surse de Date',
 
+		//sym < 2.2
 		'Data source updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Data sources</a>' => 
 		'Sursa de Date actualizată la %1$s. <a href="%2$s">Creaţi alta?</a> <a href="%3$s">Vedeţi toate Sursele de Date</a>',
-
+	
+		//sym >= 2.2
+		'Data source updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Data sources</a>' => 
+		'Sursa de Date actualizată la %1$s. <a href="%2$s" accesskey="c">Creaţi alta?</a> <a href="%3$s" accesskey="a">Vedeţi toate Sursele de Date</a>',
+	
 		'Date' => 
 		'Dată',
 
@@ -516,9 +536,14 @@
 		'Entries' => 
 		'Înregistrări',
 
+		//sym < 2.2
 		'Entry created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Entries</a>' => 
 		'Înregistrarea creată la %1$s. <a href="%2$s">Creaţi alta?</a> <a href="%3$s">Vedeţi toate Înregistrările</a>',
-
+	
+		//sym >= 2.2
+		'Entry created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Entries</a>' => 
+		'Înregistrarea creată la %1$s. <a href="%2$s" accesskey="c">Creaţi alta?</a> <a href="%3$s" accesskey="a">Vedeţi toate Înregistrările</a>',
+	
 		'Entry created successfully.' => 
 		'Înregistrarea creată cu succes.',
 
@@ -531,8 +556,13 @@
 		'Entry limit specified was not a valid type. String or Integer expected.' => 
 		'Limta de înregistrări specificată nu este de tip valid. Introduceţi Şir de Caractere sau Întreg',
 
+		//sym < 2.2
 		'Entry updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Entries</a>' => 
 		'Înregistrarea actualizată la %1$s. <a href="%2$s">Creaţi alta?</a> <a href="%3$s">Vedeţi toate Înregistrările</a>',
+	
+		//sym >= 2.2
+		'Entry updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Entries</a>' => 
+		'Înregistrarea actualizată la %1$s. <a href="%2$s" accesskey="c">Creaţi alta?</a> <a href="%3$s" accesskey="a">Vedeţi toate Înregistrările</a>',
 
 		'Entry [created | edited] successfully.' => 
 		'Înregistrare [creată | modificată] cu succes.',
@@ -546,14 +576,24 @@
 		'Essentials' => 
 		'Informaţii principale',
 
+ 		//sym < 2.2
 		'Event created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Events</a>' => 
 		'Evenimentul creat la %1$s. <a href="%2$s">Creaţi altul?</a> <a href="%3$s">Vedeţi toate Evenimentele</a>',
+ 
+		//sym >= 2.2
+		'Event created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Events</a>' => 
+		'Evenimentul creat la %1$s. <a href="%2$s" accesskey="c">Creaţi altul?</a> <a href="%3$s" accesskey="a">Vedeţi toate Evenimentele</a>',
 
 		'Events' => 
 		'Evenimente',
 
+ 		//sym < 2.2
 		'Event updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Events</a>' => 
 		'Evenimentul actualizat la %1$s. <a href="%2$s">Creaţi altul?</a> <a href="%3$s">Vedeţi toate Evenimentele</a>',
+ 
+ 		//sym >= 2.2
+ 		'Event updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Events</a>' => 
+		'Evenimentul actualizat la %1$s. <a href="%2$s" accesskey="c">Creaţi altul?</a> <a href="%3$s" accesskey="a">Vedeţi toate Evenimentele</a>',
 
 		'Example Front-end Form Markup' => 
 		'Exemplu de Formular pentru Front-end',
@@ -834,8 +874,13 @@
 		'Page could not be written to disk. Please check permissions on <code>/workspace/pages</code>.' => 
 		'Pagina nu a putut fi scrisă pe disc. Verificaţi permisiunile pentru <code>/workspace/pages</code>.',
 
+		//sym < 2.2
 		'Page created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Pages</a>' => 
 		'Pagina creată la %1$s. <a href="%2$s">Creaţi alta?</a> <a href="%3$s">Vedeţi toate Paginile</a>',
+	
+		//sym >= 2.2
+		'Page created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Pages</a>' => 
+		'Pagina creată la %1$s. <a href="%2$s" accesskey="c">Creaţi alta?</a> <a href="%3$s" accesskey="a">Vedeţi toate Paginile</a>',
 
 		'Page ID' => 
 		'ID-ul Paginii',
@@ -855,8 +900,13 @@
 		'Page Type' => 
 		'Tipul Paginii',
 
+		//sym < 2.2
 		'Page updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Pages</a>' => 
 		'Pagina actualizată la %1$s. <a href="%2$s">Creaţi alta?</a> <a href="%3$s">Vedeţi toate Paginile</a>',
+	
+		//sym >= 2.2
+		'Page updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Pages</a>' => 
+		'Pagina actualizată la %1$s. <a href="%2$s" accesskey="c">Creaţi alta?</a> <a href="%3$s" accesskey="a">Vedeţi toate Paginile</a>',
 
 		'Page updated at %s. <a href="%s">View all Pages</a>' => 
 		'Pagina actualizată la %s. <a href="%s">Vedeţi toate Paginile</a>',
@@ -942,8 +992,13 @@
 		'Save Changes' => 
 		'Salvează Modificările',
 
+		//sym < 2.2
 		'Section created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Sections</a>' => 
 		'Secţiunea creată la %1$s. <a href="%2$s">Creaţi alta?</a> <a href="%3$s">Vedeţi toate Secţiunile</a>',
+	
+		//sym >= 2.2
+		'Section created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Sections</a>' => 
+		'Secţiunea creată la %1$s. <a href="%2$s" accesskey="c">Creaţi alta?</a> <a href="%3$s" accesskey="a">Vedeţi toate Secţiunile</a>',
 
 		'Section is invalid' => 
 		'Secţiunea este invalidă',
@@ -953,9 +1008,14 @@
 
 		'sections' => 
 		'secţiuni',
-
+		
+		//sym < 2.2
 		'Section updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Sections</a>' => 
-		'Secţiunea actualizată la %1$s. <a href="%2$s">Creaţi alta?</a> <a href="%3$s">Vedeţi toate Secţiunile</a></a>',
+		'Secţiunea actualizată la %1$s. <a href="%2$s">Creaţi alta?</a> <a href="%3$s">Vedeţi toate Secţiunile</a>',
+	
+		//sym >= 2.2
+		'Section updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Sections</a>' => 
+		'Secţiunea actualizată la %1$s. <a href="%2$s" accesskey="c">Creaţi alta?</a> <a href="%3$s" accesskey="a">Vedeţi toate Secţiunile</a>',
 
 		'Select Box' => 
 		'Căsuţă Selectare',
@@ -1305,11 +1365,21 @@
 		'Utility could not be written to disk. Please check permissions on <code>/workspace/utilities</code>.' => 
 		'Utilitarul nu poate fi scris pe disc. Verificaţi permisiunile pentru <code>/workspace/utilities</code>.',
 
+		//sym < 2.2
 		'Utility created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Utilities</a>' => 
 		'Utilitarul creat la %1$s. <a href="%2$s">Creaţi altul?</a> <a href="%3$s">Vedeţi toate Utilitarele</a>',
+	
+		//sym >= 2.2
+		'Utility created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Utilities</a>' => 
+		'Utilitarul creat la %1$s. <a href="%2$s" accesskey="c">Creaţi altul?</a> <a href="%3$s" accesskey="a">Vedeţi toate Utilitarele</a>',
 
+		//sym < 2.2
 		'Utility updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Utilities</a>' => 
 		'Utilitarul actualizat la %1$s. <a href="%2$s">Creaţi altul?</a> <a href="%3$s">Vedeţi toate Utilitarele</a>',
+	
+		//sym >= 2.2
+		'Utility updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Utilities</a>' => 
+		'Utilitarul actualizat la %1$s. <a href="%2$s" accesskey="c">Creaţi altul?</a> <a href="%3$s" accesskey="a">Vedeţi toate Utilitarele</a>',
 
 		'Validation Rule <i>Optional</i>' => 
 		'Regulă de validare <i>Opţional</i>',
