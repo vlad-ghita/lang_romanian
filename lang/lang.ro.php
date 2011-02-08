@@ -161,6 +161,9 @@
 
 		'An Event with the name <code>%s</code> name already exists' => 
 		'Un Eveniment cu numele <code>%s</code> există deja',
+	
+		'An extension requires updating. <a href="%s">View Extensions</a>' =>
+		'O extensie necesită actualizări. <a href="%s">Veti Extensiile</a>',
 
 		'A new password has been requested for your account. Login using the following link, and change your password via the Authors area:' => 
 		'O nouă parolă a fost cerută pentru contul dvs. Autentificaţi-vă folosind link-ul următor şi schimbaţi-vă parola la secţiunea Autori:',
