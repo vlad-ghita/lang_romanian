@@ -484,6 +484,9 @@
 
 		'Disable' => 
 		'Dezactivează',
+	
+		'Disabled' => 
+		'Dezactivat',
 
 		'Dogs' => 
 		'Câini',
@@ -527,6 +530,12 @@
 		'Enable' => 
 		'Activează',
 
+		'Enable to install %s' =>
+		'Activează pentru a instala %s',
+	
+		'Enable to update to %s' =>
+		'Activează pentru a actualiza la %s',
+	
 		'Enabled' => 
 		'Activat',
 
@@ -699,6 +708,9 @@
 
 		'Install Symphony' => 
 		'Instalare Symphony',
+	
+		'Installed Version' =>
+		'Versiunea Instalată',
 
 		'Invalid element name. Must be valid Name.' => 
 		'Numele elementului invalid. Trebuie să fie un nume valid.',
@@ -835,6 +847,9 @@
 		'None found.' => 
 		'Niciun element găsit.',
 
+		'Not Installed' =>
+		'Neinstalată',
+	
 		'No records found.' => 
 		'Nicio înregistrare găsită.',
 
