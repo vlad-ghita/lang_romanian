@@ -4,9 +4,9 @@
 		'name' => 'Română',
 		'author' => array(
 			'name' => 'Vlad Ghiţă',
-			'email' => 'vlad_micutul@yahoo.com',
+			'email' => 'vlad.ghita@xandergroup.com',
 		),
-		'release-date' => '2010-11-10',
+		'release-date' => '2011-04-02',
 	);
 
 
@@ -14,6 +14,9 @@
 	 * Symphony Core
 	 */
 	$dictionary = array(
+
+		' (<b>Notice that it is possible to get mixtures of success and failure messages when using the "Allow Multiple" option</b>)' => 
+		' (<b>Atenţie căci există posibilitatea de a primi un amestec de mesaje de succes şi eroare la utilizarea opţiunii "Permite multiple"</b>)',
 
 		'"%1$s" contains invalid XML. The following error was returned: <code>%2$s</code>' => 
 		'"%1$s" conţine XML invalid. Următoarea eroare a fost returnată: <code>%2$s</code>',
@@ -36,32 +39,44 @@
 		'%s Checked by default' => 
 		'%s Bifat implicit',
 
-		'%s Hide this section from the Publish menu' => 
-		'%s Ascunde această secţiune de la meniul Public',
+		'%s Display field’s value in entries table' => 
+		'%s Afişează valoarea câmpului în lista de înregistrări',
 
-		'%s Hide this section from the back-end menu' => 
-		'%s Ascunde această secţiune în partea de administrare',
+		'%s Display relationship in linked sections' => 
+		'%s Afişează relaţiitle în secţiunile asociate',
 
 		'%s HTML-encode text' => 
 		'%s Text codificat în HTML',
 
+		'%s Hide this section from the back-end menu' => 
+		'%s Ascunde această secţiune în partea de administrare',
+
 		'%s Include a count of entries in associated sections' => 
 		'%s Include numărul intrărilor din secţiunile asociate',
-
-		'%s is not a valid object. Failed to append to XML.' => 
-		'%s nu este un obiect valid. Ataşare la XML nereuşită.',
 
 		'%s Make this a required field' => 
 		'%s Declară acest câmp obligatoriu',
 
+		'%s Paginate results, limiting to %s entries per page. Return page %s' => 
+		'%s Paginează rezultatele, limitând la %s intrări pe pagină. Returnează pagina %s',
+
+		'%s Pre-populate this field with today\'s date' => 
+		'%s Populează cu data de astăzi',
+
 		'%s Redirect to 404 page when no results are found' => 
 		'%s Redirecţionează către o pagină 404 în lipsă de rezultate',
 
+		'%s Requires authentication' => 
+		'',
+
 		'%s Select current user by default' => 
 		'%s Implicit selectează utilizatorul curent',
-	
-		'%s Display field’s value in entries table' =>
-		'%s Afişează valoarea câmpului în lista de înregistrări',
+
+		'%s has timed out' => 
+		'%s nu a răspuns',
+
+		'%s is not a supported encoding type. Please use "quoted-printable" or "base64". You can also use \'\' for no encoding.' => 
+		'%s nu este un tip de codare suportat. Vă rugăm folosiţi "quoted-printable" sau "base 64". Deasemenea puteţi folosi \'\' pentru lipsă codare.',
 
 		'&larr; Previous' => 
 		'&larr; Ant',
@@ -72,14 +87,17 @@
 		'\'%s\' is a required field.' => 
 		'\'%s\' este un câmp obligatoriu.',
 
-		' (<b>Notice that it is possible to get mixtures of success and failure messages when using the "Allow Multiple" option</b>)' => 
-		' (<b>Atenţie căci există posibilitatea de a primi un amestec de mesaje de succes şi eroare la utilizarea opţiunii "Permite multiple"</b>)',
+		'<a href="%1$s" title="Show debug view for %2$s">Line %3$d</a>' => 
+		'<a href="%1$s" title="Afişează fereastra de depanare pentru %2$s">Linia %3$d</a>',
 
-		'<abbr title="eXtensible Stylesheet Language Transformation">XSLT</abbr> Processor' => 
-		'Procesor <abbr title="eXtensible Stylesheet Language Transformation">XSLT</abbr>',
+		'<a href="%s" title="Show debug view">Compile</a>' => 
+		'<a href="%s" title="Afişează fereastra de depanare">Compilare</a>',
 
 		'<abbr title="PHP: Hypertext Pre-processor">PHP</abbr> 5.1 or above' => 
 		'<abbr title="PHP: Hypertext Pre-processor">PHP</abbr> 5.1 sau mai recent',
+
+		'<abbr title="eXtensible Stylesheet Language Transformation">XSLT</abbr> Processor' => 
+		'Procesor <abbr title="eXtensible Stylesheet Language Transformation">XSLT</abbr>',
 
 		'<acronym title="Universal Resource Locator">URL</acronym>' => 
 		'<acronim title="Universal Resource Locator">URL</acronym>',
@@ -87,50 +105,23 @@
 		'<acronym title="Universal Resource Locator">URL</acronym> Parameters' => 
 		'Parametrii <acronym title="Universal Resource Locator">URL</acronym>',
 
-		'<a href="%1$s" title="Show debug view for %2$s">Line %3$d</a>' => 
-		'<a href="%1$s" title="Afişează fereastra de depanare pentru %2$s">Linia %3$d</a>',
-
-		'<a href="%s" title="Show debug view">Compile</a>' => 
-		'<a href="%s" title="Afişează fereastra de depanare">Compilare</a>',
-
 		'A 403 type page already exists.' => 
 		'O pagină de tip 403 există deja.',
 
 		'A 404 type page already exists.' => 
 		'O pagină de tip 404 există deja.',
 
-		'Aardvarks' => 
-		'Porcul termitelor',
-
-		'about 1 hour ago' => 
-		'acum 1 oră',
-
-		'about {$hours} hours ago' => 
-		'acum {$hours} ore',
-
-		'Access Denied' => 
-		'Acces Interzis',
-
-		'A database error occurred while attempting to reorder.' => 
-		'A apărut o eroare la baza de date în încercarea de a reordona.',
-
 		'A Data source with the name <code>%s</code> name already exists' => 
 		'O sursă de date cu numele <code>%s</code> există deja',
 
-		'Add an Author' => 
-		'Adaugă un autor',
+		'A Section with the name <code>%s</code> name already exists' => 
+		'O secţiune numită <code>%s</code> există deja',
 
-		'Add a new author' => 
-		'Adaugă un autor nou',
+		'A Utility with that name already exists. Please choose another.' => 
+		'Un Utilitar cu acest nume există deja. Vă rugăm alegeţi altul.',
 
-		'Add item' => 
-		'Adaugă element',
-
-		'Admin Only' => 
-		'Exclusiv administrator',
-
-		'Advanced Configuration' => 
-		'Configurare avansată',
+		'A database error occurred while attempting to reorder.' => 
+		'A apărut o eroare la baza de date în încercarea de a reordona.',
 
 		'A field with that element name already exists. Please choose another.' => 
 		'Un câmp cu acest nume există deja. Vă rugăm alegeţi altul.',
@@ -138,44 +129,8 @@
 		'A file with the name %1$s already exists in %2$s. Please rename the file first, or choose another.' => 
 		'Un fişier cu numele %1$s există deja în %2$s. Vă rugăm redenumiţi acest fişier sau alegeţi altul.',
 
-		'All of these fields can be set dynamically using the exact field name of another field in the form as shown below in the example form:' => 
-		'Toate aceste câmpuri pot fi setate dinamic folosind acelaşi nume al unui alt câmp din formular, ca în exemplul de mai jos:',
-
-		'Allow Multiple' => 
-		'Permite multiple',
-
-		'a minute ago' => 
-		'acum un minut',
-
-		'An email containing a customised login link has been sent. It will expire in 2 hours.' => 
-		'Un email conţinând un link de autentificare personalizat a fost trimis. Va expira în 2 ore.',
-
-		'An empty result will be returned when this parameter does not have a value. Do not wrap the parameter with curly-braces.' => 
-		'Un rezultat vid va fi returnat dacă acest parametru nu are valoare. Nu încadraţi parametrul în acolade.',
-
-		'An error occurred during installation. You can view your log <a href="install-log.txt">here</a> for more details.' => 
-		'O eroare a survenit în timpul instalării. Puteţi vedea jurnalul <a href="install-log.txt">aici</a> pentru mai multe detalii.',
-
-		'An error occurred while processing this form. <a href="#error">See below for details.</a>' => 
-		'O eroare a intervenit în procesarea formularului. <a href="#error">Detalii mai jos.</a>',
-
-		'An Event with the name <code>%s</code> name already exists' => 
-		'Un Eveniment cu numele <code>%s</code> există deja',
-	
-		'An extension requires updating. <a href="%s">View Extensions</a>' =>
-		'O extensie necesită actualizări. <a href="%s">Veti Extensiile</a>',
-
 		'A new password has been requested for your account. Login using the following link, and change your password via the Authors area:' => 
 		'O nouă parolă a fost cerută pentru contul dvs. Autentificaţi-vă folosind link-ul următor şi schimbaţi-vă parola la secţiunea Autori:',
-
-		'An existing <code>/workspace</code> directory was found at this location. Symphony will use this workspace.' => 
-		'Un director <code>/workspace</code> a fost detectat la această locaţie. Symphony va utiliza acest spaţiu de lucru (workspace).',
-
-		'An index type page already exists.' => 
-		'O pagină de tip index există deja.',
-
-		'An unknown database error occurred while attempting to create the section.' => 
-		'La crearea secţiunii a apărut o eroare necunoscută în baza de date.',
 
 		'A page number must be set' => 
 		'Trebuie setat un număr de pagină ',
@@ -186,14 +141,68 @@
 		'A page with that title already exists' => 
 		'O pagină cu acest titlu există deja',
 
-		'Apply' => 
-		'Execută',
-
 		'A result limit must be set' => 
 		'Trebuie definită o limită pentru rezultat',
 
-		'Are you sure you want to {$action}?' => 
-		'Sigur {$action} ?',
+		'Aardvarks' => 
+		'Porcul termitelor',
+
+		'Access Denied' => 
+		'Acces Interzis',
+
+		'Add a new author' => 
+		'Adaugă un autor nou',
+
+		'Add an Author' => 
+		'Adaugă un Autor',
+
+		'Add item' => 
+		'Adaugă element',
+
+		'Admin Only' => 
+		'Exclusiv administrator',
+
+		'Advanced Configuration' => 
+		'Configurare avansată',
+
+		'All of these fields can be set dynamically using the exact field name of another field in the form as shown below in the example form:' => 
+		'Toate aceste câmpuri pot fi setate dinamic folosind acelaşi nume al unui alt câmp din formular, ca în exemplul de mai jos:',
+
+		'Allow Multiple' => 
+		'Permite multiple',
+
+		'An Event with the name <code>%s</code> name already exists' => 
+		'Un Eveniment cu numele <code>%s</code> există deja',
+
+		'An email containing a customised login link has been sent. It will expire in 2 hours.' => 
+		'Un email conţinând un link de autentificare personalizat a fost trimis. Va expira în 2 ore.',
+
+		'An empty result will be returned when this parameter does not have a value. Do not wrap the parameter with curly-braces.' => 
+		'Un rezultat vid va fi returnat dacă acest parametru nu are valoare. Nu încadraţi parametrul în acolade.',
+
+		'An error occurred during installation. You can view you log <a href="install-log.txt">here</a> for more details.' => 
+		'O eroare a survenit la instalare. Puteţti vedea jurnalul <a href="install-log.txt">aici</a> pentru mai multe detalii.',
+
+		'An error occurred while processing this form. <a href="#error">See below for details.</a>' => 
+		'O eroare a intervenit în procesarea formularului. <a href="#error">Detalii mai jos.</a>',
+
+		'An existing <code>/workspace</code> directory was found at this location. Symphony will use this workspace.' => 
+		'Un director <code>/workspace</code> a fost detectat la această locaţie. Symphony va utiliza acest spaţiu de lucru (workspace).',
+
+		'An extension requires updating. <a href="%s">View Extensions</a>' => 
+		'O extensie necesită actualizări. <a href="%s">Veti Extensiile</a>',
+
+		'An index type page already exists.' => 
+		'O pagină de tip index există deja.',
+
+		'An unknown database occurred while attempting to create the section.' => 
+		'A intervenit o eroare necunoscută la baza de date încercându-se crearea unei secţiuni.',
+
+		'An updater script has been found in your installation. <a href="%s">View Update</a>' => 
+		'Un script de actualizare a fost găsit în instalarea dvs. <a href="%s">Vedeţi actualizările.</a>',
+
+		'Apply' => 
+		'Execută',
 
 		'Are you sure you want to {$action} {$count} items?' => 
 		'Sigur {$action} {$count} elemente ?',
@@ -201,51 +210,38 @@
 		'Are you sure you want to {$action} {$name}?' => 
 		'Sigur {$action} {$name} ?',
 
-		'ascending' => 
-		'crescător',
+		'Are you sure you want to {$action}?' => 
+		'Sigur {$action} ?',
 
-		'A Section with the name <code>%s</code> name already exists' => 
-		'O secţiune numită <code>%s</code> există deja',
-
-		'at' => 
-		'la',
+		'As requested, here is your new Symphony Author Password for ' => 
+		'După cum aţi cerut, aveţi aici noua Dumneavoastră parolă Symphony pentru ',
 
 		'At least one source must be specified, dynamic or static.' => 
 		'Trebuie definită cel puţin o sursă, dinamică sau statică.',
 
 		'Author' => 
 		'Autor',
-	
-		//sym < 2.2
-		'Author created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Authors</a>' => 
-		'Autor creat la %1$s. <a href="%2$s">Creaţi altul?</a> <a href="%3$s">Vedeţi toţi Autorii</a>',
-	
-		//sym >= 2.2
-		'Author created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Authors</a>' => 
-		'Autor creat la %1$s. <a href="%2$s" accesskey="c">Creaţi altul?</a> <a href="%3$s" accesskey="a">Vedeţi toţi Autorii</a>',
-	
+
 		'Author ID' => 
 		'ID-ul autorului',
+
+		'Author created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Authors</a>' => 
+		'Autor creat la %1$s. <a href="%2$s" accesskey="c">Creaţi altul?</a> <a href="%3$s" accesskey="a">Vedeţi toţi Autorii</a>',
+
+		'Author not found' => 
+		'Autor inexistent',
+
+		'Author updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Authors</a>' => 
+		'Autor actualizat la %1$s. <a href="%2$s" accesskey="c">Creaţi altul?</a> <a href="%3$s" accesskey="a">Vedeţi toţi Autorii</a>',
 
 		'Authors' => 
 		'Autori',
 
-		'authors' => 
-		'autori',
-
 		'Authors can set up a differing language in their profiles.' => 
 		'Autorii pot seta o altă limbă din profilul lor.',
 
-		//sym < 2.2
-		'Author updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Authors</a>' => 
-		'Autor actualizat la %1$s. <a href="%2$s">Creaţi altul?</a> <a href="%3$s">Vedeţi toţi Autorii</a>',
-		
-		//sym >= 2.2
-		'Author updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Authors</a>' => 
-		'Autor actualizat la %1$s. <a href="%2$s" accesskey="c">Creaţi altul?</a> <a href="%3$s" accesskey="a">Vedeţi toţi Autorii</a>',
-
-		'A Utility with that name already exists. Please choose another.' => 
-		'Un Utilitar cu acest nume există deja. Vă rugăm alegeţi altul.',
+		'Available when using Dynamic Options' => 
+		'Disponibilă la folosirea Opţiunilor Dinamice',
 
 		'Best Regards,' => 
 		'Toate cele bune,',
@@ -268,8 +264,14 @@
 		'Bugs' => 
 		'Bugs',
 
-		'Can\'t open file %s' => 
-		'Nu se poate deschide fişierul %s',
+		'Can not call AUTH again.' => 
+		'Nu se poate apela AUTH din nou.',
+
+		'Can not call HELO on existing session' => 
+		'Nu se poate apela HELO într-o sesiune existentă.',
+
+		'Cannot request a page callback without first specifying the page.' => 
+		'Nu se poate apela un callback de pagină fără specificarea paginii.',
 
 		'Cats' => 
 		'Pisici',
@@ -292,6 +294,9 @@
 		'Cold' => 
 		'Frig',
 
+		'Collapse all' => 
+		'Strânge toate',
+
 		'Components' => 
 		'Componente',
 
@@ -301,47 +306,29 @@
 		'Confirm Password' => 
 		'Confirmare Parolă',
 
-		'Could not %1$s %2$s, there was a problem loading the object. Check the driver class exists.' => 
-		'Imposibil de %1$s %2$s, a intervenit o problemă la încărcarea obiectului. Verificaţi dacă există clasa driver',
+		'Could not find Data Source <code>%s</code>. If the Data Source was provided by an Extension, ensure that it is installed, and enabled.' => 
+		'Imposibil de localizat Sursa de Date <code>%s</code>. Dacă Sursa de Date provine de la o Extensie, asiguraţi-vă că aceasta este instalată şi activată.',
 
-		'Could not add directory "%s".' => 
-		'Imposibil de adăugat directorul "%s".',
+		'Could not find Email Gateway <code>%s</code>. If the Email Gateway was provided by an Extensions, ensure that it is installed, and enabled.' => 
+		'Imposibil de localizat Gateway-ul de Email <code>%s</code>. Dacă Gateway-ul de Email provine de la o Extensie, asiguraţi-vă că aceasta este instalată şi activată.',
 
-		'Could not add file "%s".' => 
-		'Imposibil de adăugat fişierul "%s".',
+		'Could not find Event <code>%s</code>. If the Event was provided by an Extension, ensure that it is installed, and enabled.' => 
+		'Imposibil de localizat Evenimentul <code>%s</code>. Dacă Evenimentul provine de la o Extensie, asiguraţi-vă că aceasta este instalată şi activată.',
 
-		'Could not find Data Source <code>%s</code>. If the Data Source was provided by an Extensions, ensure that it is installed, and enabled.' => 
-		'Imposibil de localizat Sursa de Date <code>%s</code>. Dacă Sursa de Date provine de la o Extensie, asiguraţi-vă că Extensia este instalată şi activată.',
+		'Could not find Field <code>%1$s</code> at <code>%2$s</code>. If the Field was provided by an Extension, ensure that it is installed, and enabled.' => 
+		'Imposibil de localizat Câmpul <code>%s</code>. Dacă Câmpul provine de la o Extensie, asiguraţi-vă că aceasta este instalată şi activată.',
 
-		'Could not find Event <code>%s</code>. If the Event was provided by an Extensions, ensure that it is installed, and enabled.' => 
-		'Imposibil de localizat Evenimentul <code>%s</code>. Dacă Evenimentul provine de la o Extensie, asiguraţi-vă că Extensia este instalată şi activată.',
+		'Could not find Text Formatter <code>%s</code>. If the Text Formatter was provided by an Extension, ensure that it is installed, and enabled.' => 
+		'Imposibil de localizat Editorul de Text <code>%s</code>. Dacă Editorul de Text provine de la o Extensie, asiguraţi-vă că aceasta este instalată şi activată.',
 
 		'Could not find extension at location %s' => 
 		'Imposibil de localizat Extensia din locaţia %s',
 
-		'Could not find Field <code>%1$s</code> at <code>%2$s</code>. If the Field was provided by an Extension, ensure that it is installed, and enabled.' => 
-		'Imposibil de localizat Câmpul <code>%s</code>. Dacă Câmpul provine de la o Extensie, asiguraţi-vă că Extensia este instalată şi activată.',
+		'Could not read from %s' => 
+		'Imposibil de citit de la %s',
 
-		'Could not find Text Formatter <code>%s</code>. If the Text Formatter was provided by an Extensions, ensure that it is installed, and enabled.' => 
-		'Imposibil de localizat Editorul de Text <code>%s</code>. Dacă Editorul de Text provine de la o Extensie, asiguraţi-vă că Extensia este instalată şi activată.',
-
-		'Create a new data source' => 
-		'Crează o nouă sursă de date',
-
-		'Create a new entry' => 
-		'Crează o nouă înregistrare',
-
-		'Create a new event' => 
-		'Crează un nou eveniment',
-
-		'Create a new page' => 
-		'Crează o nouă pagină',
-
-		'Create a new utility' => 
-		'Crează un nou utilitar',
-
-		'Create a section' => 
-		'Crează o nouă secţiune',
+		'Could not send request: %s' => 
+		'Nu a putut fi trimisă cererea: %s',
 
 		'Create Author' => 
 		'Crează Autor',
@@ -367,17 +354,53 @@
 		'Create Utility' => 
 		'Crează Utilitar',
 
+		'Create a new data source' => 
+		'Crează o nouă sursă de date',
+
+		'Create a new entry' => 
+		'Crează o nouă înregistrare',
+
+		'Create a new event' => 
+		'Crează un nou eveniment',
+
+		'Create a new page' => 
+		'Crează o nouă pagină',
+
+		'Create a new utility' => 
+		'Crează un nou utilitar',
+
+		'Create a section' => 
+		'Crează o nouă secţiune',
+
 		'Created if does not exist' => 
 		'Va fi creat dacă nu există',
-
-		'Customise how Date and Time values are displayed throughout the Administration interface.' => 
-		'Personalizează modul în care Data şi Ora sunt afişate în Interfaţa de Administrare.',
 
 		'Custom Preferences' => 
 		'Setări Personalizate',
 
 		'Custom XML' => 
 		'XML personalizat',
+
+		'Customise how Date and Time values are displayed throughout the Administration interface.' => 
+		'Personalizează modul în care Data şi Ora sunt afişate în Interfaţa de Administrare.',
+
+		'Data Source' => 
+		'Sursă de Date',
+
+		'Data Sources' => 
+		'Surse de Date',
+
+		'Data retrieved from the Symphony support server is decompressed with the ZLib compression library.' => 
+		'Datele extrase de pe server-ul de suport al Symphony sunt dezarhivate cu biblioteca de compresie ZLib.',
+
+		'Data source created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Data sources</a>' => 
+		'Sursa de Date creată la %1$s. <a href="%2$s" accesskey="c">Creaţi alta?</a> <a href="%3$s" accesskey="a">Vedeţi toate Sursele de Date</a>',
+
+		'Data source output grouping is not supported by the <code>%s</code> field' => 
+		'Gruparea rezultatului Sursei de Date nu este suportată de câmpul <code>%s</code>',
+
+		'Data source updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Data sources</a>' => 
+		'Sursa de Date actualizată la %1$s. <a href="%2$s" accesskey="c">Creaţi alta?</a> <a href="%3$s" accesskey="a">Vedeţi toate Sursele de Date</a>',
 
 		'Database' => 
 		'Baza de date',
@@ -388,45 +411,14 @@
 		'Database Error' => 
 		'Eroare la baza de date',
 
-		'Data retrieved from the Symphony support server is decompressed with the ZLib compression library.' => 
-		'Datele extrase de pe server-ul de suport al Symphony sunt dezarhivate cu biblioteca de compresie ZLib.',
-
-		'Data Source' => 
-		'Sursă de Date',
-
-		//sym < 2.2
-		'Data source created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Data sources</a>' => 
-		'Sursa de Date creată la %1$s. <a href="%2$s">Creaţi alta?</a> <a href="%3$s">Vedeţi toate Sursele de Date</a>',
-		
-		//sym >= 2.2
-		'Data source created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Data sources</a>' => 
-		'Sursa de Date creată la %1$s. <a href="%2$s" accesskey="c">Creaţi alta?</a> <a href="%3$s" accesskey="a">Vedeţi toate Sursele de Date</a>',
-	
-		'Data source output grouping is not supported by the <code>%s</code> field' => 
-		'Gruparea rezultatului Sursei de Date nu este suportată de câmpul <code>%s</code>',
-
-		'Data Sources' => 
-		'Surse de Date',
-
-		//sym < 2.2
-		'Data source updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Data sources</a>' => 
-		'Sursa de Date actualizată la %1$s. <a href="%2$s">Creaţi alta?</a> <a href="%3$s">Vedeţi toate Sursele de Date</a>',
-	
-		//sym >= 2.2
-		'Data source updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Data sources</a>' => 
-		'Sursa de Date actualizată la %1$s. <a href="%2$s" accesskey="c">Creaţi alta?</a> <a href="%3$s" accesskey="a">Vedeţi toate Sursele de Date</a>',
-	
 		'Date' => 
 		'Dată',
-
-		'Date and Time' => 
-		'Data şi Ora',
 
 		'Date Format' => 
 		'Formatul Datei',
 
-		'Daylight savings time' => 
-		'Ora de vară',
+		'Date and Time' => 
+		'Data şi Ora',
 
 		'Dear <!-- RECIPIENT NAME -->,' => 
 		'Drag(ă) <!-- NUMELE DESTINATARULUI -->,',
@@ -461,9 +453,6 @@
 		'Delete this utility' => 
 		'Şterge acest utilitar',
 
-		'descending' => 
-		'descrescător',
-
 		'Description' => 
 		'Descriere',
 
@@ -484,21 +473,18 @@
 
 		'Disable' => 
 		'Dezactivează',
-	
+
 		'Disabled' => 
 		'Dezactivat',
 
 		'Dogs' => 
 		'Câini',
 
-		'Dynamic Options' => 
-		'Opţiuni dinamice',
+		'Dynamic Values' => 
+		'Valori Dinamice',
 
 		'Dynamic XML' => 
 		'XML dinamic',
-
-		'dynamic_xml' => 
-		'xml_dinamic',
 
 		'E-mail address entered is invalid' => 
 		'Adresa de email introdusă nu este validă',
@@ -527,20 +513,35 @@
 		'Email Address' => 
 		'Adresa de email',
 
+		'Email Gateway' => 
+		'Gatewaz de Email',
+
+		'Email Gateway Error' => 
+		'Eroare la Gatewaz-ul de Email',
+
+		'Email subject cannot be empty.' => 
+		'Subiectul emailului nu poate fi necompletat.',
+
+		'Email: SMTP' => 
+		'Email: SMTP',
+
+		'Email: Sendmail' => 
+		'Email: Sendmail',
+
 		'Enable' => 
 		'Activează',
 
-		'Enable to install %s' =>
+		'Enable to install %s' => 
 		'Activează pentru a instala %s',
-	
-		'Enable to update to %s' =>
+
+		'Enable to update to %s' => 
 		'Activează pentru a actualiza la %s',
-	
+
 		'Enabled' => 
 		'Activat',
 
-		'Encumbered' => //vt  a stânjeni; a împiedica; a îngreuna;a încărca (cu datorii); a împovăra;a fi o piedică în calea 
-		'Encumbered', //aglomerat ocupat ... vedem sensul
+		'Encumbered' => 
+		'Encumbered',
 
 		'Enter your email address to be sent a remote login link with further instructions for logging in.' => 
 		'Introduceţi adresa de email pentru a vă trimite un link de login cu alte instrucţiuni pentru autentificare.',
@@ -548,14 +549,12 @@
 		'Entries' => 
 		'Înregistrări',
 
-		//sym < 2.2
-		'Entry created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Entries</a>' => 
-		'Înregistrarea creată la %1$s. <a href="%2$s">Creaţi alta?</a> <a href="%3$s">Vedeţi toate Înregistrările</a>',
-	
-		//sym >= 2.2
+		'Entry [created | edited] successfully.' => 
+		'Înregistrare [creată | modificată] cu succes.',
+
 		'Entry created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Entries</a>' => 
 		'Înregistrarea creată la %1$s. <a href="%2$s" accesskey="c">Creaţi alta?</a> <a href="%3$s" accesskey="a">Vedeţi toate Înregistrările</a>',
-	
+
 		'Entry created successfully.' => 
 		'Înregistrarea creată cu succes.',
 
@@ -568,16 +567,8 @@
 		'Entry limit specified was not a valid type. String or Integer expected.' => 
 		'Limta de înregistrări specificată nu este de tip valid. Introduceţi Şir de Caractere sau Întreg',
 
-		//sym < 2.2
-		'Entry updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Entries</a>' => 
-		'Înregistrarea actualizată la %1$s. <a href="%2$s">Creaţi alta?</a> <a href="%3$s">Vedeţi toate Înregistrările</a>',
-	
-		//sym >= 2.2
 		'Entry updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Entries</a>' => 
 		'Înregistrarea actualizată la %1$s. <a href="%2$s" accesskey="c">Creaţi alta?</a> <a href="%3$s" accesskey="a">Vedeţi toate Înregistrările</a>',
-
-		'Entry [created | edited] successfully.' => 
-		'Înregistrare [creată | modificată] cu succes.',
 
 		'Environment Settings' => 
 		'Setările Mediului de Lucru',
@@ -588,30 +579,26 @@
 		'Essentials' => 
 		'Informaţii principale',
 
- 		//sym < 2.2
-		'Event created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Events</a>' => 
-		'Evenimentul creat la %1$s. <a href="%2$s">Creaţi altul?</a> <a href="%3$s">Vedeţi toate Evenimentele</a>',
- 
-		//sym >= 2.2
 		'Event created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Events</a>' => 
 		'Evenimentul creat la %1$s. <a href="%2$s" accesskey="c">Creaţi altul?</a> <a href="%3$s" accesskey="a">Vedeţi toate Evenimentele</a>',
+
+		'Event updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Events</a>' => 
+		'Evenimentul actualizat la %1$s. <a href="%2$s" accesskey="c">Creaţi altul?</a> <a href="%3$s" accesskey="a">Vedeţi toate Evenimentele</a>',
 
 		'Events' => 
 		'Evenimente',
 
- 		//sym < 2.2
-		'Event updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Events</a>' => 
-		'Evenimentul actualizat la %1$s. <a href="%2$s">Creaţi altul?</a> <a href="%3$s">Vedeţi toate Evenimentele</a>',
- 
- 		//sym >= 2.2
- 		'Event updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Events</a>' => 
-		'Evenimentul actualizat la %1$s. <a href="%2$s" accesskey="c">Creaţi altul?</a> <a href="%3$s" accesskey="a">Vedeţi toate Evenimentele</a>',
-
 		'Example Front-end Form Markup' => 
 		'Exemplu de Formular pentru Front-end',
 
+		'Example XML' => 
+		'Exemplu XML',
+
 		'Existing Values' => 
 		'Valori existente',
+
+		'Expand all' => 
+		'Extinde toate',
 
 		'Extensions' => 
 		'Extensii',
@@ -625,14 +612,20 @@
 		'Failed to write Event to <code>%s</code>. Please check permissions.' => 
 		'Imposibil de creat Evenimentul la <code>%s</code>. Verificaţi permisiunile.',
 
+		'Failing to paginate may degrade performance if the number of entries returned is very high.' => 
+		'Eşuarea paginării poate degrada performanţele dacă numărul de înregistrări este foarte mare.',
+
 		'Fields' => 
 		'Câmpuri',
 
-		'File chosen in "%1$s" exceeds the maximum allowed upload size of %2$s, specified by Symphony.' => 
-		'Fişierul selectat din "%1$s" depăşeşte valoarea maximă admisă pentru încărcare de %2$s, specificată de Symphony.',
+		'File Upload' => 
+		'Încărcare Fişier',
 
 		'File chosen in "%1$s" exceeds the maximum allowed upload size of %2$s specified by your host.' => 
 		'Fişierul selectat din "%1$s" depăşeşte valoarea maximă admisă pentru încărcare de %2$s, specificată de către gazda dvs.',
+
+		'File chosen in "%1$s" exceeds the maximum allowed upload size of %2$s, specified by Symphony.' => 
+		'Fişierul selectat din "%1$s" depăşeşte valoarea maximă admisă pentru încărcare de %2$s, specificată de Symphony.',
 
 		'File chosen in \'%s\' does not match allowable file types for that field.' => 
 		'Fişierul selectat din \'%s\' nu corespunde tipurilor de fişier suportate de acest câmp.',
@@ -643,9 +636,6 @@
 		'Files' => 
 		'Fişiere',
 
-		'File Upload' => 
-		'Încărcare Fişier',
-
 		'Filter %s by' => 
 		'Filtrează %s după',
 
@@ -655,11 +645,11 @@
 		'Filter Navigation by' => 
 		'Filtrează Navigarea cu',
 
+		'Filter Options' => 
+		'Opţiunile Filtrului',
+
 		'Filter Results' => 
 		'Filtrează Rezultatele',
-
-		'Filter Rules' => 
-		'Regulile Filtrului',
 
 		'First' => 
 		'Prima',
@@ -670,11 +660,20 @@
 		'First name is required' => 
 		'Prenumele este un câmp obligatoriu',
 
+		'For a secure connection, SSL and TLS are supported. Please check the manual of your email provider for more details.' => 
+		'Pentru o conexiune sigură, SSL şi TSL sunt suportate. Vă rugăm să verificaţi manualul furnizorului de email pentru mai multe detalii.',
+
 		'Forbidden' => 
 		'Interzis',
 
 		'Formatting' => 
 		'Formatare',
+
+		'From Email Address' => 
+		'De la Adresa de Email',
+
+		'From Name' => 
+		'De la Numele',
 
 		'General' => 
 		'General',
@@ -688,14 +687,17 @@
 		'Handle' => 
 		'Handle',
 
+		'Header fields can only contain strings' => 
+		'Câmpurile header pot conţine doar stringuri',
+
 		'Hi %s,' => 
-		'Salut %s,',
+		'Bună ziua, %s,',
 
 		'Host' => 
 		'Gazdă',
 
 		'Hot' => 
-		'Fierrrbinte',
+		'Fierbinte',
 
 		'ID' => 
 		'ID',
@@ -703,29 +705,32 @@
 		'Included Elements' => 
 		'Elementele incluse',
 
+		'Install Symphony' => 
+		'Instalare Symphony',
+
 		'Installation Failure' => 
 		'Instalare Nereuşită',
 
-		'Install Symphony' => 
-		'Instalare Symphony',
-	
-		'Installed Version' =>
+		'Installed Version' => 
 		'Versiunea Instalată',
-
-		'Invalid element name. Must be valid Name.' => 
-		'Numele elementului invalid. Trebuie să fie un nume valid.',
 
 		'Invalid Entry ID specified. Could not create Entry object.' => 
 		'ID-ul Înregistrării este invalid. Înregistrarea nu poate fi creată.',
 
+		'Invalid element name. Must be valid QName.' => 
+		'Nume element invalid. Trebuie să fie QName',
+
+		'Invalid timezone \'{$timezone}\'' => 
+		'\'{$timezone}\' este un fus orar invalid ',
+
 		'It looks like you\'re trying to create an entry. Perhaps you want fields first? <a href="%s">Click here to create some.</a>' => 
+		'Se pare că doriţi să introduceţi o înregistrare. Poate aţi dori să adăugaţi câteva câmpuri înainte? <a href="%s">Apăsaţi aici pentru a le adăuga</a>.',
+
+		'It looks like your trying to create an entry. Perhaps you want fields first? <a href="%s">Click here to create some.</a>' => 
 		'Se pare că doriţi să introduceţi o înregistrare. Poate aţi dori să adăugaţi câteva câmpuri înainte? <a href="%s">Apăsaţi aici pentru a le adăuga</a>.',
 
 		'It will expire in 2 hours. If you did not ask for a new password, please disregard this email.' => 
 		'Va expira în 2 ore. Dacă nu aţi cerut o nouă parola, ignoraţi acest mesaj.',
-
-		'just now' => 
-		'chiar acum',
 
 		'Label' => 
 		'Etichetă',
@@ -739,11 +744,14 @@
 		'Last' => 
 		'Ultima',
 
-		'Last name is required' => 
-		'Numele este obligatoriu',
+		'Last Name' => 
+		'Nume',
 
 		'Last Seen' => 
 		'Ultima accesare',
+
+		'Last name is required' => 
+		'Numele este obligatoriu',
 
 		'Leave password fields blank to keep the current password' => 
 		'Lăsaţi câmpurile pentru parolă vide pentru a păstra parola curentă',
@@ -754,11 +762,8 @@
 		'Line %s' => 
 		'Linia %s',
 
-		'list of comma author usernames.' => 
-		'lista numelor de utlilizatori separate prin virgulă.',
-
-		'Local' => 
-		'Local',
+		'Login' => 
+		'Autentificare',
 
 		'Login Details' => 
 		'Detalii de autentificare',
@@ -766,8 +771,8 @@
 		'Logout' => 
 		'Deconectare',
 
-		'Long Description <i>Optional</i>' => 
-		'Descriere Detaliată <i>Opţional</i>',
+		'Long Description' => 
+		'Descriere Lungă',
 
 		'Lumpy' => 
 		'Impozant',
@@ -775,8 +780,8 @@
 		'Main content' => 
 		'Conţinut principal',
 
-		'Make sure that you delete <code>' => 
-		'Asiguraţi-vă că ştergeţi <code>',
+		'Make sure that you delete <code>%s</code> file after Symphony has installed successfully.' => 
+		'Asiguraţi-va că ştergeţi fişierul <code>%s</code> după ce Symphony a fost instalat.',
 
 		'Make textarea %s rows tall' => 
 		'Creaţi un câmp text de înălţime %s linii',
@@ -802,6 +807,18 @@
 		'Must be greater than zero' => 
 		'Trebuie să fie mai mare de zero',
 
+		'Must call EHLO (or HELO) before calling AUTH' => 
+		'Trebuie apelat EHLO (sau HELO) înainte de AUTH',
+
+		'Must call EHLO (or HELO) before calling MAIL' => 
+		'Trebuie apelat EHLO (sau HELO) înainte de MAIL',
+
+		'Must call MAIL before calling RCPT' => 
+		'Trebuie apelat MAIL înainte de RCPT',
+
+		'Must call RCPT before calling DATA' => 
+		'Trebuie apelat RCPT înainte de DATA',
+
 		'My<abbr title="Structured Query Language">SQL</abbr> 4.1 or above' => 
 		'My<abbr title="Structured Query Language">SQL</abbr> 4.1 sau mai recent',
 
@@ -810,21 +827,18 @@
 
 		'Name' => 
 		'Nume',
-		
+
 		'Name is a required field.' => 
 		'Numele este un câmp obligatoriu.',
 
 		'Namespace' => 
-		'Domeniul de nume',
+		'Domeniul de nume (namespace)',
 
-		'Namespace Declarations <i>Optional</i>' => 
-		'Declaraţii ale Domeniului de Nume <i>Opţional</i>',
+		'Namespace Declarations' => 
+		'Declaraţiile Domeniilor de Nume (namespace)',
 
 		'Navigation' => 
 		'Navigare',
-
-		'navigation' => 
-		'navigare',
 
 		'Navigation Group' => 
 		'Grup de Navigare',
@@ -841,26 +855,38 @@
 		'No' => 
 		'Nu',
 
+		'No <code>/symphony</code> directory was found at this location. Please upload the contents of Symphony\'s install package here.' => 
+		'Nu a fost găsit niciun director <code>/symphony</code> la această locaţie. Încărcaţi aici conţinutul pachetului de instalare Symphony.',
+
+		'No attachments or body text was set. Can not send empty email.' => 
+		'Niciun ataşament sau conţinut nu a fost setat. Nu poate fi trimis un email gol.',
+
+		'No connection has been established to %s' => 
+		'Nu a fost stabilită nicio conexiune către %s',
+
+		'No encryption' => 
+		'Făra encripţie.',
+
+		'No records found.' => 
+		'Nicio înregistrare găsită.',
+
+		'No suitable XSLT processor was found.' => 
+		'Nu a fost găsit niciun procesor XSLT adecvat.',
+
+		'No suitable engine object found' => 
+		'Nu a fost găsit niciun motor adecvat',
+
+		'No valid recipients found. Check send-email[recipient] field.' => 
+		'Nu au fost găsiţi destinatari valizi. Verificaţi câmpul send-email[recipient].',
+
 		'None' => 
 		'Lipsă',
 
 		'None found.' => 
 		'Niciun element găsit.',
 
-		'Not Installed' =>
+		'Not Installed' => 
 		'Neinstalată',
-	
-		'No records found.' => 
-		'Nicio înregistrare găsită.',
-
-		'No suitable engine object found' => 
-		'Nu a fost găsit niciun motor adecvat',
-
-		'No suitable XSLT processor was found.' => 
-		'Nu a fost găsit niciun procesor XSLT adecvat.',
-
-		'No valid recipients found. Check send-email[recipient] field.' => 
-		'Nu au fost găsiţi destinatari valizi. Verificaţi câmpul send-email[recipient].',
 
 		'Old Password' => 
 		'Parola veche',
@@ -870,6 +896,9 @@
 
 		'One or more pages could not be deleted. Please check permissions on <code>/workspace/pages</code>.' => 
 		'Una sau mai multe pagini nu au putut fi şterse. Verificaţi permisiunile pentru <code>/workspace/pages</code>.',
+
+		'Only one call to MAIL may be made at a time.' => 
+		'Doar un singur apel către MAIL poate fi făcut la unmoment dat.',
 
 		'Optional' => 
 		'Opţional',
@@ -883,6 +912,21 @@
 		'Page %1$s of %2$s' => 
 		'Pagina %1$s din %2$s',
 
+		'Page ID' => 
+		'ID-ul Paginii',
+
+		'Page Not Found' => 
+		'Pagina nu a fost găsită',
+
+		'Page Resources' => 
+		'Resursele Paginii',
+
+		'Page Settings' => 
+		'Setările Paginii',
+
+		'Page Type' => 
+		'Tipul Paginii',
+
 		'Page could not be deleted because it does not exist.' => 
 		'Pagina nu a putut fi ştearsă deoarece nu există.',
 
@@ -892,42 +936,14 @@
 		'Page could not be written to disk. Please check permissions on <code>/workspace/pages</code>.' => 
 		'Pagina nu a putut fi scrisă pe disc. Verificaţi permisiunile pentru <code>/workspace/pages</code>.',
 
-		//sym < 2.2
-		'Page created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Pages</a>' => 
-		'Pagina creată la %1$s. <a href="%2$s">Creaţi alta?</a> <a href="%3$s">Vedeţi toate Paginile</a>',
-	
-		//sym >= 2.2
 		'Page created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Pages</a>' => 
 		'Pagina creată la %1$s. <a href="%2$s" accesskey="c">Creaţi alta?</a> <a href="%3$s" accesskey="a">Vedeţi toate Paginile</a>',
 
-		'Page ID' => 
-		'ID-ul Paginii',
-
-		'Page not found' => 
-		'Pagina nu a fost găsită',
-
-		'Page Resources' => 
-		'Resursele Paginii',
-
-		'Pages' => 
-		'Pagini',
-
-		'Page Settings' => 
-		'Setările Paginii',
-
-		'Page Type' => 
-		'Tipul Paginii',
-
-		//sym < 2.2
-		'Page updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Pages</a>' => 
-		'Pagina actualizată la %1$s. <a href="%2$s">Creaţi alta?</a> <a href="%3$s">Vedeţi toate Paginile</a>',
-	
-		//sym >= 2.2
 		'Page updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Pages</a>' => 
 		'Pagina actualizată la %1$s. <a href="%2$s" accesskey="c">Creaţi alta?</a> <a href="%3$s" accesskey="a">Vedeţi toate Paginile</a>',
 
-		'Page updated at %s. <a href="%s">View all Pages</a>' => 
-		'Pagina actualizată la %s. <a href="%s">Vedeţi toate Paginile</a>',
+		'Pages' => 
+		'Pagini',
 
 		'Parameter Output' => 
 		'Parametri de Ieşire',
@@ -940,6 +956,9 @@
 
 		'Password is required' => 
 		'Parola este obligatorie',
+
+		'Password reset. Check your email' => 
+		'Parolă resetată. Verificaţi-vă emailul.',
 
 		'Passwords did not match' => 
 		'Parolele nu coincid',
@@ -971,14 +990,17 @@
 		'Port' => 
 		'Port',
 
+		'Predefined Values' => 
+		'Valori predefinite.',
+
 		'Preferences' => 
 		'Preferinţe',
 
 		'Preferences saved.' => 
 		'Preferinţe salvate.',
 
-		'random' => 
-		'aleator',
+		'Recipient email address cannot be empty.' => 
+		'Adresa email a destinatarului nu poate fi goală.',
 
 		'Recipient username was invalid' => 
 		'Numele destinatarului este invalid',
@@ -998,8 +1020,14 @@
 		'Reordering was unsuccessful.' => 
 		'Reordonare nereuşită.',
 
-		'Required URL Parameter <i>Optional</i>' => 
-		'Parametru URL necesar <i>Opţional</i>',
+		'Reply-To Email Address can not contain carriage return or newlines.' => 
+		'Adresa de email pentru Răspuns nu poate conţine linii noi.',
+
+		'Reply-To Name can not contain carriage return or newlines.' => 
+		'Numele pentru Răspuns nu poate conţine linii noi.',
+
+		'Required URL Parameter' => 
+		'Parametru URL necesar',
 
 		'Root Path' => 
 		'Calea Rădăcină',
@@ -1007,33 +1035,29 @@
 		'Round' => 
 		'Rotund',
 
+		'Run the updater to update Symphony to %s. <a href="%s">View Update</a>' => 
+		'Executaţi actualizatorul pentru a actualiza Symphony la %s. <a href="%s">Vedeţi Actualizările</a>',
+
+		'SMTP' => 
+		'SMTP',
+
+		'SSL encryption' => 
+		'Encripţie SSL',
+
 		'Save Changes' => 
 		'Salvează Modificările',
 
-		//sym < 2.2
-		'Section created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Sections</a>' => 
-		'Secţiunea creată la %1$s. <a href="%2$s">Creaţi alta?</a> <a href="%3$s">Vedeţi toate Secţiunile</a>',
-	
-		//sym >= 2.2
 		'Section created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Sections</a>' => 
 		'Secţiunea creată la %1$s. <a href="%2$s" accesskey="c">Creaţi alta?</a> <a href="%3$s" accesskey="a">Vedeţi toate Secţiunile</a>',
 
 		'Section is invalid' => 
 		'Secţiunea este invalidă',
 
-		'Sections' => 
-		'Sectiuni', //daca scriu "Secţiuni", atunci nu mai apare partea de Filtre si Sortare la meniul Data Sources ...
-
-		'sections' => 
-		'secţiuni',
-		
-		//sym < 2.2
-		'Section updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Sections</a>' => 
-		'Secţiunea actualizată la %1$s. <a href="%2$s">Creaţi alta?</a> <a href="%3$s">Vedeţi toate Secţiunile</a>',
-	
-		//sym >= 2.2
 		'Section updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Sections</a>' => 
 		'Secţiunea actualizată la %1$s. <a href="%2$s" accesskey="c">Creaţi alta?</a> <a href="%3$s" accesskey="a">Vedeţi toate Secţiunile</a>',
+
+		'Sections' => 
+		'Sectiuni',
 
 		'Select Box' => 
 		'Căsuţă Selectare',
@@ -1041,29 +1065,32 @@
 		'Send Email' => 
 		'Trimite Email',
 
-		'Send Email Filter' => 
-		'Filtru pentru Trimiterea Email-ului',
+		'Send Notification Email' => 
+		'Trimite Email de Notificare',
+
+		'Sender Email Address can not contain carriage return or newlines.' => 
+		'Adresa de Email a Expeditorului nu poate conţine linii noi.',
+
+		'Sender email address cannot be empty.' => 
+		'Adresa de Email a Expeditorului nu poate fi goală.',
+
+		'Sendmail (default)' => 
+		'Sendmail (implicit)',
 
 		'Set %s' => 
 		'Setează %s',
 
-		'Show a maximum of %s results' => 
-		'Afişează maxim %s rezultate',
-
-		'Show a maximum of %s results per page' => 
-		'Afişează maxim %s rezultate pe pagină',
-
-		'Show page %s of results' => 
-		'Afişează pagina %s cu rezultate',
+		'Set navigation group' => 
+		'Setează grupul de navigare.',
 
 		'Sidebar' => 
 		'Panou lateral',
 
-		'Site Name' => 
-		'Nume site',
-
 		'Small' => 
 		'Mic',
+
+		'Some SMTP connections require authentication. If that is the case, enter the username/password combination below.' => 
+		'Unele conexiuni SMTP necesită autentificare. Dacă aceasta este cazlu, introduceţi utilizatorul şi parola mai jos.',
 
 		'Some errors were encountered while attempting to save.' => 
 		'Au apărut erori incercând să salvez.',
@@ -1071,23 +1098,20 @@
 		'Sort By' => 
 		'Sortează după',
 
+		'Sort Order' => 
+		'Ordinea Sortării',
+
 		'Sort by %1$s %2$s' => 
 		'Sortează după %1$s %2$s',
 
 		'Sorting and Limiting' => 
 		'Sortare şi Limite',
 
-		'Sort Order' => 
-		'Ordinea Sortării',
-
 		'Source' => 
 		'Sursa',
 
-		'Static Options' => 
-		'Opţiuni statice',
-
-		'static_xml' => 
-		'XML statc',
+		'Static XML' => 
+		'XML static',
 
 		'Status' => 
 		'Statut',
@@ -1125,17 +1149,20 @@
 		'Symphony does not have write permission to the temporary <code>htaccess</code> file. Please modify permission settings on this file so it can be written to, and renamed.' => 
 		'Symphony nu are permisiune de scriere la fişierul temporar <code>htaccess</code>. Vă rugăm să modificaţi permisiunile acestui fişier astfel încât să poata fi scris şi redenumit.',
 
+		'Symphony is also available in other languages' => 
+		'Symphony este disponibil deasemenea şi în alte limbi.',
+
 		'Symphony is ready to be installed at the following location.' => 
 		'Symphony este pregătit de instalare la locaţia.',
-
-		'Symphony needs an XSLT processor such as Lib<abbr title="eXtensible Stylesheet Language Transformation">XSLT</abbr> or Sablotron to build pages.' => 
-		'Symphony necesită un preocesor XSLT precum Lib<abbr title="eXtensible Stylesheet Language Transformation">XSLT</abbr> sau Sablotron pentru a construi paginile.',
 
 		'Symphony needs a recent version of <abbr title="PHP: Hypertext Pre-processor">PHP</abbr>.' => 
 		'Symphony necesită o versiune recentă de <abbr title="PHP: Hypertext Pre-processor">PHP</abbr>.',
 
 		'Symphony needs a recent version of My<abbr title="Structured Query Language">SQL</abbr>.' => 
 		'Symphony necesită o versiune recentă de My<abbr title="Structured Query Language">SQL</abbr>.',
+
+		'Symphony needs an XSLT processor such as Lib<abbr title="eXtensible Stylesheet Language Transformation">XSLT</abbr> or Sablotron to build pages.' => 
+		'Symphony necesită un preocesor XSLT precum Lib<abbr title="eXtensible Stylesheet Language Transformation">XSLT</abbr> sau Sablotron pentru a construi paginile.',
 
 		'Symphony needs permission to read and write both files and directories.' => 
 		'Symphony are nevoie de permisiuni de citire şi scriere pentru directoare şi fişiere.',
@@ -1173,6 +1200,9 @@
 		'System Language' => 
 		'Limba Sistemului',
 
+		'TLS encryption' => 
+		'Encripţie TLS',
+
 		'Table Prefix' => 
 		'Prefixul de Tabel',
 
@@ -1182,14 +1212,44 @@
 		'Template' => 
 		'Şablon',
 
-		'Textarea' => 
-		'Text Câmp',
+		'Text Formatter' => 
+		'Editor de Text',
 
 		'Text Input' => 
 		'Text Intrare',
 
-		'Text Formatter' => 
-		'Editor de Text',
+		'Textarea' => 
+		'Text Câmp',
+
+		'The %s gateway does not support the use of %s' => 
+		'Gateway-ul %s nu permite folosirea %s',
+
+		'The Data Source \'%s\', provided by the Extension \'%s\', is currently in use. Please remove it from your pages prior to uninstalling or disabling.' => 
+		'Sursa de Data \'%s\', furnizată de Extensia \'%s\', este folosită momentan. Vă rugăm să o înlăturaţi de la pagini înainte de dezinstalare sau dezactivare.',
+
+		'The Event \'%s\', provided by the Extension \'%s\', is currently in use. Please remove it from your pages prior to uninstalling or disabling.' => 
+		'Evenimentul \'%s\', furnizat de Extensia \'%s\', este folosit momentan. Vă rugăm să-l înlăturaţi de la pagini înainte de dezinstalare sau dezactivare.',
+
+		'The Section you are looking for could not be found.' => 
+		'Secţiunea pe care o căutaţi nu a fost găsită.',
+
+		'The Section you are looking for, <code>%s</code>, could not be found.' => 
+		'Secţiunea <code>%s</code> pe care o căutaţi nu a fost găsită.',
+
+		'The Section you are looking, <code>%s</code> for could not be found.' => 
+		'Secţiunea pe care o căutaţi, <code>%s</code>, nu a putut fi găsită.',
+
+		'The Symphony Team' => 
+		'Echipa Xander Software',
+
+		'The Symphony configuration file, <code>/manifest/config.php</code>, is not writable. You will not be able to save changes to preferences.' => 
+		'Fişierul de configurare pentru Symphony, <code>/manifest/config.php</code>, nu este inscriptibil. Nu veţi putea salva modificările la preferinţte.',
+
+		'The Symphony core will use the selected gateway to send emails. More gateways can be installed using extensions, and any gateway may be used by custom events or extensions.' => 
+		'Nucelul Symphony va folosi gatewaz-ul selectat pentru a trimite emailuri. Alte gateway-uri pot fi instalate folosind extensii şi orice gateway poate fi folosit de evenimente şi / sau extensii.',
+
+		'The author profile you requested does not exist.' => 
+		'Profilul autorului cerut nu există.',
 
 		'The date specified in \'%s\' is invalid.' => 
 		'Data specificată în \'%s\' este invalidă.',
@@ -1197,50 +1257,41 @@
 		'The destination directory, <code>%s</code>, does not exist.' => 
 		'Directorul destinaţie ,<code>%s</code>, nu există.',
 
+		'The email address "%s" is invalid.' => 
+		'Adresa de email "%s" nu este validă.',
+
 		'The entry you are looking for could not be found.' => 
 		'Înregistrarea pe care o căutaţi nu a fost găsită',
 
-		'The following is an example of what is returned if any filters fail:' => 
-		'Iată un exemplu de rezultat în cazul in care oricare din filtre returnează fals:',
+		'The field \'%s\', provided by the Extension \'%s\', is currently in use. Please remove it from your sections prior to uninstalling or disabling.' => 
+		'Câmpul \'%s\', furnizat de Extensia \'%s\', este folosit momentan. Vă rugăm să-l înlăturaţi de la secţiuni înainte de dezinstalare sau dezactivare.',
+
+		'The file uploaded is no longer available. Please check that it exists, and is readable.' => 
+		'Fişierul încărcat nu mai este disponibil. Vă rugpm să verificaţi că mai există sipoate fi citit.',
+
+		'The following default settings will be used to send emails unless they are overwritten.' => 
+		'Următoarele setări implicite vor fi folosite pentru trimiterea de emailuri dacă nu sunt suprascrise.',
+
+		'The following is an example of what is returned if any options return an error:' => 
+		'Urmează un exemplu cu rezultatul returnat dacă oricare dintre opţiuni returnează o eroare:',
+
+		'The page you requested does not exist' => 
+		'Pagina cerută nu există.',
 
 		'The page you requested does not exist.' => 
 		'Pagina ceruta nu există.',
 
-		'The page you requested to edit does not exist.' => 
-		'Pagina cerută spre editare nu există.',
+		'The parameter <code id="output-param-name">$ds-%s</code> will be created with this field\'s value for XSLT or other data sources to use.' => 
+		'Parametrul <code id="output-param-name">$ds-%s</code> va fi creat cu valoarea acestui Câmp pentru a fi accesibil XSLT-ului şi altor surse de date.',
 
 		'The password and confirmation did not match. Please retype your password.' => 
 		'Parola şi confirmarea parolei nu se potrivesc. Reintroduceţi parola.',
 
-		'There appears to be an existing <code>.htaccess</code> file in the <code>/symphony</code> directory.' => 
-		'Există deja un fişier <code>.htaccess</code> în directorul <code>/symphony</code>.',
+		'The section associated with the data source <code>%s</code> could not be found.' => 
+		'Secţiunea sociată cu sursa de date <code>%s</code> nu a fost găsită.',
 
-		'There appears to be an existing <code>.htaccess</code> file in the Symphony install location. To avoid name clashes, you will need to delete or rename this file.' => 
-		'Există deja un fişier <code>.htaccess</code> în directorul de instalare pentru Symphony. Pentru a vita conflictul de nume trebuie să ştergeţi sau să redenumiţi acest fiţier.',
-
-		'There is already a field of type <code>%s</code>. There can only be one per section.' => 
-		'Un câmp de tipul <code>%s</code> există deja. Numai unul poate să existe într-o secţiune.',
-
-		'There was an error while trying to upload the file <code>%1$s</code> to the target directory <code>%2$s</code>.' => 
-		'A apărut o eroare la încărcarea fişierului <code>%1$s</code> în directorul <code>%2$s</code>.',
-
-		'There was a problem locating your account. Please check that you are using the correct email address.' => 
-		'A apărut o problemă la localizarea contului dvs. Asiguraţi-vă că folosiţi adresa de email corectă.',
-
-		'There were some problems while attempting to save. Please check below for problem fields.' => 
-		'Au apărut erori incercând să salvez. Verficaţi mai jos câmpurile cu probleme.',
-
-		//'The section associated with the data source <code>%s</code> could not be found.' => 
-		//'Secţiunea asociată sursei de date <code>%s</code> nu a fost găsită.',
-
-		'The Section you are looking for, <code>%s</code>, could not be found.' => 
-		'Secţiunea <code>%s</code> pe care o căutaţi nu a fost găsită.',
-
-		'The Section you are looking for could not be found.' => 
-		'Secţiunea pe care o căutaţi nu a fost găsită.',
-
-		'The send email filter, upon the event successfully saving the entry, takes input from the form and send an email to the desired recipient. <b>This filter currently does not work with the "Allow Multiple" option.</b> The following are the recognised fields:' => 
-		'Filtrul *send email*, după salvarea cu succes a unei înregistrări, acceptă date de intrare din formular şi trimite mail către destinatarul dorit. <b>Deocamdată, acest filtru nu funcţionează cu opţiunea "Permite multiple".</b> Următoarele câmpuri sunt recunoscute:',
+		'The selected language could not be found. Using default English dictionary instead.' => 
+		'Limba selectată nu a fost găsită. Se foloseşte dicţionarul Englez implicit.',
 
 		'The supplied password was rejected. <a href="%s">Retrieve password?</a>' => 
 		'Parola furnizată a fost respinsă. <a href="%s">Recuperare parolă?</a>',
@@ -1248,29 +1299,44 @@
 		'The supplied password was rejected. Make sure it is not empty and that password matches password confirmation.' => 
 		'Parola furnizată a fost respinsă. Asiguraţi-vă că nu este vidă şi se potriveşte cu confirmarea parolei.',
 
-		'The Symphony configuration file, <code>/manifest/config.php</code>, is not writable. You will not be able to save changes to preferences.' => 
-		'Fişierul de configurare pentru Symphony, <code>/manifest/config.php</code>, nu este inscriptibil. Nu veţi putea salva modificările la preferinţte.',
-
-		'The Symphony Team' => 
-		'Echipa Symphony',
-
 		'The table prefix <code><!-- TABLE-PREFIX --></code> is already in use. Please choose a different prefix to use with Symphony.' => 
 		'Prefixul de tabel <code><!-- TABLE-PREFIX --></code> există deja. Alegeţi un alt prefix pentru a folosi cu Symphony.',
+
+		'There is already a field of type <code>%s</code>. There can only be one per section.' => 
+		'Un câmp de tipul <code>%s</code> există deja. Numai unul poate să existe într-o secţiune.',
+
+		'There was a problem locating your account. Please check that you are using the correct email address.' => 
+		'A apărut o problemă la localizarea contului dvs. Asiguraţi-vă că folosiţi adresa de email corectă.',
+
+		'There was a problem whilst attempting to establish a database connection. Please check all connection information is correct. The following error was returned.' => 
+		'A survenit o eroare la încercarea de stabilire a unei conexiuni la baza de date. Vă rugăm să verificaţi informaţiile despre conexiune. Următoarea eroare a fost returnată.',
+
+		'There was an error while trying to upload the file <code>%1$s</code> to the target directory <code>%2$s</code>.' => 
+		'A apărut o eroare la încărcarea fişierului <code>%1$s</code> în directorul <code>%2$s</code>.',
+
+		'There were some problems while attempting to save. Please check below for problem fields.' => 
+		'Au apărut erori incercând să salvez. Verficaţi mai jos câmpurile cu probleme.',
 
 		'This document is not well formed. The following error was returned: <code>%s</code>' => 
 		'Acest document nu a fost construit corect. A survenit următoarea eroare: <code>%s</code>',
 
-		'This event will not be processed if any of these rules return true.' => 
-		'Acest eveniment nu va fi procesat daca oricare din aceste reguli returnează adevărat.',
+		'This event has been customised and cannot be viewed from Symphony.' => 
+		'Acest eveniment a fost personalizat şi nu poate fi vizualizat din Symphony.',
+
+		'This gateway can not be found. Can not save as default.' => 
+		'Acest gateway nu a fost găsit. Nu poate fi salvat ca implicit.',
 
 		'This is a courtesy email to notify you that an entry was created on the %1$s section. You can edit the entry by going to: %2$s' => 
 		'Acesta este un email de înştiinţare că o înregistrare a fost creată la secţiunea %1$s. Puteţi modifica înregistrarea accesând: %2$s',
 
-		'This is an example of the form markup you can use on your frontend:' => 
-		'Acesta este un exemplu de realizare a unui formular pentru frontend:',
+		'This is a required field' => 
+		'Acest câmp este obligatoriu.',
 
 		'This is a required field.' => 
 		'Acest câmp este obligatoriu.',
+
+		'This is an example of the form markup you can use on your frontend:' => 
+		'Acesta este un exemplu de realizare a unui formular pentru frontend:',
 
 		'This is not a valid email address. You must provide an email address since you will need it if you forget your password.' => 
 		'Adresă de email invalidă. Trebuie să furnizaţi o adresa de email deoarece veţi avea nevoie de ea în caz de pierdere a parolei.',
@@ -1299,36 +1365,6 @@
 		'Type' => 
 		'Tip',
 
-		'Unable to remove file - %s' => 
-		'Ştergere nereuşită a fişierului - %s',
-
-		'Uninstall' => 
-		'Dezinstalează',
-
-		'Unknown Entry' => 
-		'Înregistrare necunoscută',
-
-		'Unknown errors occurred while attempting to save. Please check your <a href="%s">activity log</a>.' => 
-		'Au apărut erori necunoscute încercând să salvez. Verificaţi <a href="%s">jurnalul de activitate</a>.',
-
-		'Unknown errors where encountered when saving.' => 
-		'Au apărut erori necunoscute încercând să salvez.',
-
-		'Unknown Section' => 
-		'Secţiune Necunoscută',
-
-		'Untitled' => 
-		'Neintitulat',
-
-		'Update Symphony' => 
-		'Acualizare Symphony',
-
-		'Uploading \'%s\' failed. Could not write temporary file to disk.' => 
-		'Încarcare nereuşită a \'%s\'. Scrierea pe disc a fişierului temporar nu este posibilă.',
-
-		'Uploading \'%s\' failed. File upload stopped by extension.' => 
-		'Încarcare nereuşită a \'%s\'. Încărcarea fişierului a fost oprită de către extensie.',
-
 		'URI' => 
 		'URI',
 
@@ -1341,6 +1377,57 @@
 		'URL Parameters' => 
 		'Parametrii URL',
 
+		'Unable to connect via TLS' => 
+		'Conexiune prin TLS nerealizabilă.',
+
+		'Unable to open socket. %s' => 
+		'Socket-ul %s nu a putut fi deschis',
+
+		'Unable to open socket. Unknown error' => 
+		'Socket-ul nu a putut fi deschis, Eroare necunoscută.',
+
+		'Unable to remove file - %s' => 
+		'Ştergere nereuşită a fişierului - %s',
+
+		'Unable to set timeout.' => 
+		'Timeout-ul nu poate fi setat.',
+
+		'Uninstall' => 
+		'Dezinstalează',
+
+		'Unknown Entry' => 
+		'Înregistrare necunoscută',
+
+		'Unknown Section' => 
+		'Secţiune Necunoscută',
+
+		'Unknown errors occurred while attempting to save. Please check your <a href="%s">activity log</a>.' => 
+		'Au apărut erori necunoscute încercând să salvez. Verificaţi <a href="%s">jurnalul de activitate</a>.',
+
+		'Unknown errors where encountered when saving.' => 
+		'Au apărut erori necunoscute încercând să salvez.',
+
+		'Unsupported SSL type' => 
+		'Tip SSL nsuportat.',
+
+		'Untitled' => 
+		'Neintitulat',
+
+		'Update Symphony' => 
+		'Acualizare Symphony',
+
+		'Update cached result every %s minutes' => 
+		'Acutalizează rezultatul cache la fiecare %s minute',
+
+		'Uploading \'%s\' failed. Could not write temporary file to disk.' => 
+		'Încarcare nereuşită a \'%s\'. Scrierea pe disc a fişierului temporar nu este posibilă.',
+
+		'Uploading \'%s\' failed. File upload stopped by extension.' => 
+		'Încarcare nereuşită a \'%s\'. Încărcarea fişierului a fost oprită de către extensie.',
+
+		'Upon the event successfully saving the entry, this option takes input from the form and send an email to the desired recipient. <b>It currently does not work with "Allow Multiple".</b> The following are the recognised fields:' => 
+		'La salvarea cu succes a înregistrării de către eveniment, această opţiune primeşte date de intrare de la formular şi trimite un email la destinatarul dorit. <b>Momentat nu funcţionează cu "Permite Multiple".</b> Următoarele câmpuri sunt suportate:',
+
 		'Use <code>{$param}</code> syntax to filter by page parameters.' => 
 		'Folosiţi sintaxa <code>{$param}</code> pentru a filtra după parametrii paginii.',
 
@@ -1350,17 +1437,23 @@
 		'Use <code>{$param}</code> syntax to specify dynamic portions of the URL.' => 
 		'Folosiţi sintaxa <code>{$param}</code> pentru a specifica bucăţi dinamice ale URL-ului.',
 
+		'Use Field' => 
+		'Folosiţi Câmpul',
+
 		'Use an XPath expression to select which elements from the source XML to include.' => 
 		'Folosiţi o expresie XPath pentru a selecta care elemente din sursa XML să fie incluse',
 
 		'Use compatibility mode' => 
 		'Folosiţi modul compatibilitate',
 
-		'Use Field' => 
-		'Folosiţi Câmpul',
-
 		'User Information' => 
 		'Informaţii despre Utilizator',
+
+		'User Type' => 
+		'Tipul de Utilizator',
+
+		'User type' => 
+		'Tipul de utilizator',
 
 		'Username' => 
 		'Utilizator',
@@ -1371,9 +1464,6 @@
 		'Username is required' => 
 		'Utilizatorul este obligatoriu',
 
-		'User type' => 
-		'Tipul de utilizator',
-
 		'Utilities' => 
 		'Utilitare',
 
@@ -1383,19 +1473,9 @@
 		'Utility could not be written to disk. Please check permissions on <code>/workspace/utilities</code>.' => 
 		'Utilitarul nu poate fi scris pe disc. Verificaţi permisiunile pentru <code>/workspace/utilities</code>.',
 
-		//sym < 2.2
-		'Utility created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Utilities</a>' => 
-		'Utilitarul creat la %1$s. <a href="%2$s">Creaţi altul?</a> <a href="%3$s">Vedeţi toate Utilitarele</a>',
-	
-		//sym >= 2.2
 		'Utility created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Utilities</a>' => 
 		'Utilitarul creat la %1$s. <a href="%2$s" accesskey="c">Creaţi altul?</a> <a href="%3$s" accesskey="a">Vedeţi toate Utilitarele</a>',
 
-		//sym < 2.2
-		'Utility updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Utilities</a>' => 
-		'Utilitarul actualizat la %1$s. <a href="%2$s">Creaţi altul?</a> <a href="%3$s">Vedeţi toate Utilitarele</a>',
-	
-		//sym >= 2.2
 		'Utility updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Utilities</a>' => 
 		'Utilitarul actualizat la %1$s. <a href="%2$s" accesskey="c">Creaţi altul?</a> <a href="%3$s" accesskey="a">Vedeţi toate Utilitarele</a>',
 
@@ -1444,11 +1524,14 @@
 		'Wrong password. Enter old password to change it.' => 
 		'Parolă incorectă. Introduceţi parola veche pentru a o schimba.',
 
-		'XML is invalid' => 
-		'XML-ul este invalid',
+		'XML' => 
+		'XML',
 
 		'XML Output' => 
 		'Rezultatul XML',
+
+		'XML is invalid' => 
+		'XML-ul este invalid',
 
 		'XML returned is invalid.' => 
 		'Rezultatul XML este invalid.',
@@ -1465,11 +1548,14 @@
 		'You are not authorised to access this page.' => 
 		'Nu aveţi autorizaţia să accesaţi această pagină.',
 
-		'You are not authorised to access this section.' => 
-		'Nu aveţi autorizaţia să accesaţi această secţiune',
+		'You are not authorised to edit other authors.' => 
+		'Nu aveţi autorizaţia de a edita autorii.',
 
 		'You are not using the most recent version of Symphony. This update is only compatible with Symphony 2.' => 
 		'Nu folosiţi cea mai recentă versiune de Symphony. Acest update este compatibil doar cu Symphony 2.',
+
+		'You cannot remove yourself as you are the active Author.' => 
+		'Nu vă puteţi şterge deoarece sunteţi Autorul activ.',
 
 		'You must enter a Password. This will be your Symphony login information.' => 
 		'Trebuie să introduceţi o parolă. Aceasta va reprezenta informaţia dvs de autentificare pentru Symphony.',
@@ -1480,118 +1566,53 @@
 		'You must enter your name.' => 
 		'Trebuie să introduceţi numele dvs.',
 
+		'Your Symphony installation is up to date, but an updater script was still detected. For security reasons, it should be removed. <a href="%s/update.php?action=remove">Remove Update Script</a>' => 
+		'Instalarea Symphony este actualizată la zi, dar un script de actualizare a fost detectat. Din motive de securitate, ar trebui înlaturat. <a href="%s/update.php?action=remove">Înlătură Scriptul de Actualizare</a>',
+
 		'ZLib Compression Library' => 
 		'Biblioteca de arhivare ZLib',
 
 		'[Symphony] A new entry was created on %s' => 
 		'[Symphony] O noua înregistrare a fost creată la %s',
 
+		'a minute ago' => 
+		'acum un minut',
+
+		'about 1 hour ago' => 
+		'acum 1 oră',
+
+		'about {$hours} hours ago' => 
+		'acum {$hours} ore',
+
+		'appendHeaderField accepts strings only; arrays are not allowed.' => 
+		'appendHeaderField ascceptă doar stringuri; array-urile nu sunt permise.',
+
+		'ascending' => 
+		'crescător',
+
+		'at' => 
+		'la',
+
+		'descending' => 
+		'descrescător',
+
+		'just now' => 
+		'chiar acum',
+
+		'list of comma-separated author usernames.' => 
+		'listă a utilizatorilor autori separaţi prin virgulă.',
+
+		'no leading zeros' => 
+		'fără zerouri de început',
+
+		'random' => 
+		'aleator',
+
+		'released on' => 
+		'lansat la',
+
 		'{$minutes} minutes ago' => 
 		'acum {$minutes} minute',
-
-
-
-
-		// Obsolete
-
-
-
-
-		/* BEGIN OF --- JIT Image Manipulation*/
-		/* pentru ca am instalat un JIT modificat pentru Image Cropper. E un bug pe undeva si nu functioneaza limba ... Originalul e ok */
-		'Error reading external image <code>%s</code>. Please check the URI.' => 
-		'Eroare la citirea imagini externe <code>%s</code>. Verificaţi URI-ul',
-
-		'Error writing to temporary file <code>%s</code>.' => 
-		'Eroare de scriere la fişierul temporar <code>%s</code>',
-
-		'Error loading image <code>%s</code>. Check it exists and is readable.' => 
-		'Eroare de încărcare a imaginii <code>%s</code>. Asiguraţi-vă că există şi poate fi citită.',
-
-		'Cannot load CMYK JPG Images' => 
-		'Imposibil de încărcat imagini JPG CMYK',
-
-		'Unsupported image type. Supported types: GIF, JPEG and PNG' => 
-		'Tip de imagine nesuportat. Tipuri suportate: GIF, JPEG şi PNG',
-
-		'Invalid image resource supplied' => 
-		'Resursa de imagine furnizată este invalidă',
-
-		'Error: Connecting to that external site is not permitted.' => 
-		'Eroare: Conectarea la site-ul extern nu este permisă.',
-
-		'Image <code>%s</code> could not be found.' => 
-		'Imaginea <code>%s</code> nu a fost găsită',
-
-		'Error generating image' => 
-		'Eroare la generarea imaginii',
-
-		'JIT Image Manipulation' => 
-		'Manipularea de Imagine JIT',
-
-		'Trusted Sites' => 
-		'Site-uri de Încredere',
-
-		'Leave empty to disable external linking. Single rule per line. Add * at end for wild card matching.' => 
-		'Lăsaţi necompletat pentru a dezactiva legăturile externe. Doar o regulă pe un rând. Adăugaţi * la sfârşit pentru potrivire generală.',
-		/*  END  OF --- JIT Image Manipulation*/
-
-		'%s Pre-populate this field with today\'s date' => 
-		'%s Completează acest câmp cu data de azi',
-		
-		//'Download Language File' => 
-		//'Télécharger le fichier de langue',
-
-		//'e. g. de, fr' => 
-		//'p. ex. de, fr',
-
-		//'e. g. Deutsch, Français' => 
-		//'p. ex. Deutsch, Français',
-
-		//'If you enter details of an already existing language, your download will contain all current strings highlighting missing ones. <br />If you leave all fields blank, a clean, untranslated language file will be returned.' => 
-		//'Si vous entrez des détails dans une langue existante, votre téléchargement contiendra toutes les chaînes actuelles en montrant les manquants. <br />Si vous laissez tous les champs vides, un fichier vierge, non traduit vous sera renvoyé.',
-
-		//'Language Code' => 
-		//'Code de langue',
-
-		'Missing File' => 
-		'Fichier manquant',
-
-		//'name' => 
-		//'nom',
-
-		//'new' => 
-		//'nouveau',
-
-		'No <code>/symphony</code> directory was found at this location. Please upload the contents of Symphony\'s install package here.' => 
-		'Nu a fost găsit niciun director <code>/symphony</code> la această locaţie. Încărcaţi aici conţinutul pachetului de instalare Symphony.',
-
-		'Options' => 
-		'Opţiuni',
-
-		'System Standard' => 
-		'Standardul Sistemului',
-
-		'The parameter <code id="output-param-name">$ds-%s</code> will be created with this field\'s value for XSLT or other data sources to use.' => 
-		'Parametrul <code id="output-param-name">$ds-%s</code> va fi creat cu valoarea acestui Câmp pentru a fi accesibil XSLT-ului şi altor surse de date.',
-
-		'%s Pre-populate this field with today\'s date' => 
-		'%s Populează cu data de astăzi',
-
-		'Last Name' => 
-		'Nume',
-
-		'Login' => 
-		'Autentificare',
-
-		'Page Not Found' => 
-		'Pagina nu a fost găsită',
-
-		'Static XML' => 
-		'XML static',
-
-		'User Type' => 
-		'Tipul de Utilizator',
 
 	);
 
