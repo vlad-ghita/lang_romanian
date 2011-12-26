@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<extension id="lang_romanian" status="released" xmlns="http://symphony-cms.com/schemas/extension/1.0">
+
+	<name>Language: Romanian</name>
+
+	<description>Romanian translation for Symphony CMS Admin</description>
+
+	<repo type="github">https://github.com/vlad-ghita/lang_romanian</repo>
+
+	<url type="discuss">http://symphony-cms.com/discuss/thread/54728/</url>
+
+	<types>
+		<type>Translations</type>
+	</types>
+
+	<authors>
+		<author>
+			<name github="vlad-ghita" symphony="vladG">Vlad Ghita</name>
+			<email>vlad_micutul@yahoo.com</email>
+			<website>http://www.xanderadvertising.com</website>
+		</author>
+	</authors>
+
+	<releases>
+		<release version="1.1" date="2011-12-26" min="2.2" max="2.3" />
+		<release version="1.0" date="2010-11-16" min="2.0" max="2.1.2" />
+	</releases>
+
+</extension>

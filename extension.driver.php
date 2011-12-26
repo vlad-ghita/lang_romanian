@@ -8,15 +8,22 @@
 
 		public function about() {
 			return array(
-				'name' => 'Language: Română',
-				'type' => 'Localisation',
-				'version' => '1.0.0',
-				'release-date' => '2010-11-10',
+				'name' => 'Language: Romanian',
+				'type' => 'Translation',
+				'version' => '1.1',
+				'release-date' => '2011-12-26',
 				'author' => array(
-					'name' => 'Vlad Ghiţă',
-					'email' => 'vlad_micutul@yahoo.com'
+					array(
+						'name' => 'Xander Group',
+						'email' => 'symphonycms@xandergroup.ro',
+						'website' => 'www.xanderadvertising.com'
+					),
+					array(
+						'name' => 'Vlad Ghita',
+						'email' => 'vlad.ghita@xandergroup.ro',
+					),
 				),
-				'description' => 'Romanian translation for the Symphony backend',
+				'description' => 'Romanian translation for Symphony CMS Admin.',
 			);
 		}
 
